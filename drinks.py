@@ -1,7 +1,7 @@
 # In drinks.py
 # espresso/latte/cappuccino
 
-# TODO: check resources, use the resources
+# TODO: check resources, use the resources, only object to mutate resources
 
 
 class DrinksMaker:
@@ -14,6 +14,10 @@ class DrinksMaker:
     def checkResources(self, choice):
         self.choice = choice
         # print("chose: " + self.choice)
+
+        # she did it better...
+        # for item in order_ingredients
+        #  if order_ingredients[item] >= resources[item]
 
         ingredients = self.the_menu.MENU[self.choice]["ingredients"]
         water = int(ingredients["water"])

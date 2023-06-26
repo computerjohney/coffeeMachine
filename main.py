@@ -1,4 +1,6 @@
 # In main.py
+"""should have used doc strings"""
+"""and return true or falsey"""
 
 import sys
 from drinks import DrinksMaker
